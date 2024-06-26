@@ -40,7 +40,7 @@ kernel在3维数据上滑动运算的示意图：
 <img src="./conv3d_0.jpg" height="400px">    
 
 ### 用例: 
-构造一个batch_size为1，input_channel为1的 4*4*4的三维张量，如下：   
+构造一个batch_size为1，input_channel为1的 4x4x4的三维张量，如下：   
 [[[[[1, 2, 3, 4],  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5, 6, 7, 8],  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[9, 10, 11, 12],  
