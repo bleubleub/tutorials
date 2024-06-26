@@ -30,7 +30,7 @@ class mindspore.nn.Conv2d(in_channels, out_channels, kernel_size, stride=1, pad_
 ### 与torch.nn.Conv2d的参数差异对比：
 1. padding与pad_mode的填充方式差异。
 2. bias的默认值差异.  
-* 详见[比较与torch.nn.Conv3d的差异](https://www.mindspore.cn/docs/zh-CN/r2.1/note/api_mapping/pytorch_diff/Conv2d.html)
+* 详见[比较与torch.nn.Conv2d的差异](https://www.mindspore.cn/docs/zh-CN/r2.1/note/api_mapping/pytorch_diff/Conv2d.html)
 
 ## 样例：
 kernel在2维数据上滑动运算的示意图：   
