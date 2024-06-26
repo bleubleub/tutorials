@@ -61,7 +61,7 @@ kernel在3维数据上滑动运算的示意图：
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[9, 10, 11, 12],  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[13, 14, 15, 16]]]]]
 
-卷积核的尺寸为2*2*2，具体数据如下：  
+卷积核的尺寸为2x2x2，具体数据如下：  
  [[[[[1, 2]  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3, 4]],  
 
