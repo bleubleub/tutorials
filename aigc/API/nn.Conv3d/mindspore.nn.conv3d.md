@@ -5,10 +5,10 @@ class mindspore.nn.Conv3d(in_channels, out_channels, kernel_size, stride=1, pad_
 ```
 
 ## 输入和输出：
-输入的Tensor尺寸为（${N}_{}$, ${C}_{in}$, ${D}_{in}$, ${H}_{in}$, ${W}_{in}$）。  
-输出的Tensor尺寸为（${N}_{}$, ${C}_{out}$, ${D}_{out}$, ${H}_{out}$, ${W}_{out}$）。  
-其中${N}_{}$为批尺寸，${C}_{}$为通道数，${D}_{}$, ${H}_{}$, ${W}_{}$分别为特征图的深度、高度和宽度。
-输入和输出的${N}_{}$相等，${C}_{out}$ = 参数中的out_channels，${D}_{out}$, ${H}_{out}$, ${W}_{out}$的计算方法与参数中的pad_mode、padding相关，详见[mindspore官方文档](https://www.mindspore.cn/docs/zh-CN/master/api_python/nn/mindspore.nn.Conv3d.html)。
+输入的Tensor尺寸为（N, C<sub>in</sub>, D<sub>in</sub>, H<sub>in</sub>, W<sub>in</sub>）。  
+输出的Tensor尺寸为（N, C<sub>out</sub>, D<sub>out</sub>, H<sub>out</sub>, W<sub>out</sub>）。  
+其中N为批尺寸，C为通道数，D、H、W分别为特征图的深度、高度和宽度。
+输入和输出的N相等，C<sub>out</sub>为参数中的out_channels，D<sub>out</sub>, H<sub>out</sub>, W<sub>out</sub>的计算方法与参数中的pad_mode、padding相关，详见[mindspore官方文档](https://www.mindspore.cn/docs/zh-CN/master/api_python/nn/mindspore.nn.Conv3d.html)。
 
 * 与mindspore.nn.Conv2d相比，输入和输出多了一个纬度深度D。
 
@@ -91,9 +91,9 @@ output[0][0][0][0][0] =  1 * 2 + 2 * 2 + 5 * 3 + 6 * 4 + 1 * 2 + 2 * 2 + 5 * 3 +
 
 <img src="./conv3d_1.jpg" height="250px">   
 
-${D}_{out}$ =（4 - 1 x (2 - 1)）/ 1 = 3  
-${H}_{out}$ =（4 - 1 x (2 - 1)）/ 1 = 3
-${W}_{out}$ =（4 - 1 x (2 - 1)）/ 1 = 3  
+D<sub>out</sub> =（4 - 1 x (2 - 1)）/ 1 = 3  
+H<sub>out</sub> =（4 - 1 x (2 - 1)）/ 1 = 3
+W<sub>out</sub> =（4 - 1 x (2 - 1)）/ 1 = 3  
 
 **代码演示如下：**
 ```python

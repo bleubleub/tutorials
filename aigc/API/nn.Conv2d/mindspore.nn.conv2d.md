@@ -5,10 +5,10 @@ class mindspore.nn.Conv2d(in_channels, out_channels, kernel_size, stride=1, pad_
 ```
  
 ## 输入和输出：
-输入的Tensor尺寸为（${N}_{}$, ${C}_{in}$, ${H}_{in}$, ${W}_{in}$）。  
-输出的Tensor尺寸为（${N}_{}$, ${C}_{out}$, ${H}_{out}$, ${W}_{out}$）。  
-其中${N}_{}$为批尺寸，${C}_{}$为通道数 ${H}_{}$, ${W}_{}$分别为特征图的高度和宽度。
-输入和输出的${N}_{}$相等，${C}_{out}$ = 参数中的out_channels，${H}_{out}$、${W}_{out}$的计算方法与参数中的pad_mode、padding相关，详见[mindspore官方文档](https://www.mindspore.cn/docs/zh-CN/master/api_python/nn/mindspore.nn.Conv2d.html)。
+输入的Tensor尺寸为（N, C<sub>in</sub>, H<sub>in</sub>, W<sub>in</sub>）。  
+输出的Tensor尺寸为（N, C<sub>out</sub>, H<sub>out</sub>, W<sub>out</sub>）。  
+其中N为批尺寸，C为通道数， H、W分别为特征图的高度和宽度。
+输入和输出的N相等，C<sub>out</sub>为参数中的out_channels，H<sub>out</sub>、 W<sub>out</sub>的计算方法与参数中的pad_mode、padding相关，详见[mindspore官方文档](https://www.mindspore.cn/docs/zh-CN/master/api_python/nn/mindspore.nn.Conv2d.html)。
 
 ## 参数：
 **in_channels** (int) - 输入Tensor的通道数。  
@@ -59,8 +59,8 @@ kernel在2维数据上滑动运算的示意图：
 
 <img src="./conv2d_0.jpg" height="200px">   
 
-${H}_{out}$ =（4 - 1 x (2 - 1)）/ 1 = 3  
-${W}_{out}$ =（4 - 1 x (2 - 1)）/ 1 = 3
+H<sub>out</sub> =（4 - 1 x (2 - 1)）/ 1 = 3  
+W<sub>out</sub> =（4 - 1 x (2 - 1)）/ 1 = 3
 
 
 **代码演示如下：**
@@ -114,8 +114,8 @@ print("output:\n", output)
 
 <img src="./conv2d_1.jpg" height="200px">   
 
-${H}_{out}$ =（4 + 1 + 1 - (2 - 1) x 1 - 1）/ 1 + 1 = 5   
-${W}_{out}$ =（4 + 1 + 1 - (2 - 1) x 1 - 1）/ 1 + 1 = 5   
+H<sub>out</sub> =（4 + 1 + 1 - (2 - 1) x 1 - 1）/ 1 + 1 = 5   
+W<sub>out</sub>=（4 + 1 + 1 - (2 - 1) x 1 - 1）/ 1 + 1 = 5   
 
 **代码演示如下：**
 ```python
