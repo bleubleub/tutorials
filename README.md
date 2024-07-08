@@ -7,7 +7,7 @@
 ### AIGC/文生视频
 
 - [OpenSora-PKU 从零到一实现](./aigc/opensora-pku_from_scratch/opensora-pku%20implemented%20from%20scratch.md)
-    - [ ] [VideoCausalVAE 简介与 MindSpore 实现]()
+    - [ ] [VideoCausalVAE 简介与 MindSpore 实现](aigc/opensora-pku_from_scratch/docs/CausalVideoVAE_implement.md)
     - [ ] [T5-XXL 简介与 MindSpore 实现]()
     - [ ] [Latte 简介与 MindSpore 实现]()
     - diffusion 过程
