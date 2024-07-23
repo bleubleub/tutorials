@@ -28,7 +28,8 @@
 
 ### API 接口介绍
 - [nn.Conv2D 接口实践](./aigc/API/nn.Conv2d/mindspore.nn.conv2d.md)
-
 - [nn.Conv3D 接口实践](./aigc/API/nn.Conv3d/mindspore.nn.conv3d.md)
-
-- [...]()
+- [nn.AvgPool2d 接口实践](./aigc/API/nn.AvgPool2d/mindspore.nn.AvgPool2d.md)
+- [nn.AvgPool3d 接口实践](./aigc/API/nn.AvgPool3d/mindspore.nn.AvgPool3d.md)
+- [nn.LayerNorm 接口实践](./aigc/API/nn.LayerNorm/mindspore.nn.LayerNorm.md)
+- [nn.GroupNorm 接口实践](./aigc/API/nn.GroupNorm/mindspore.nn.GroupNorm.md)
