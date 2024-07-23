@@ -37,8 +37,8 @@ class mindspore.nn.AvgPool2d(kernel_size=1, stride=1, pad_mode='valid', data_for
 
 \* stride=kernel size的情况属于非重叠池化，如果stride<kernel size 则属于重叠池化。重叠池化相比于非重叠池化不仅可以提升预测精度，同时在一定程度上可以缓解过拟合。*
 
-## 与torch.nn.GroupNorm的区别
-与torch.nn.GroupNorm相比，新增了参数pad_mode和参数data_format。当padding不为0时，pad_mode为“pad”时与torch实现一致。data_format默认值的情况下与torch功能保持一致。  
+## 与torch.nn.AvgPool2d的区别
+与torch.nn.AvgPool2d相比，新增了参数pad_mode和参数data_format。当padding不为0时，pad_mode为“pad”时与torch实现一致。data_format默认值的情况下与torch功能保持一致。  
 其他参数与torch功能保持一致。
 
 ## AvgPool与MaxPool的选择方法
