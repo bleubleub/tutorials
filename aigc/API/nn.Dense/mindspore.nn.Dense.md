@@ -8,7 +8,7 @@ class mindspore.nn.Dense(in_channels, out_channels, weight_init=None, bias_init=
 ## 输入和输出：
 输入的Tensor尺寸为（任意维度，in_channels）。   
 输出的Tensor尺寸为（任意维度，out_channels）。    
-计算公式：
+计算公式：   
 <img src="./function.png" height="80px">    
 其中X为输入，activation为激活函数，kernel为权重矩阵，bias为偏执向量。
 
