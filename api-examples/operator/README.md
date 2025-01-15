@@ -93,9 +93,9 @@
 | [ops.max](./ops.max.ipynb) |  返回给定轴上的最大值及其索引 | Reduction函数
 | [ops.maximum](./ops.maximum!!!.ipynb) |  计算两个输入中的最大值 | 比较函数
 | [ops.meshgrid](./ops.meshgrid.ipynb) |  从给定的Tensor生成网格矩阵 | Tensors
-| [ops.mean](./ops.mean.ipynb) |  返回输入所有元素的平均值 | 比较函数
-| [ops.min](./ops.min.ipynb) |  计算两个输入中的最小值  | 比较函数
-| [ops.minimum](./ops.minimum!!!.ipynb) |  返回给定轴上的最小值及其索引 | Reduction函数
+| [ops.mean](./ops.mean.ipynb) | 返回输入所有元素的平均值 | 比较函数
+| [ops.min](./ops.min.ipynb) | 返回给定轴上的最小值及其索引 | 比较函数
+| [ops.minimum](./ops.minimum!!!.ipynb) | 计算两个输入中的最小值 | Reduction函数
 | [ops.moveaxis](./ops.moveaxis.ipynb) | 将x在source中位置的维度移动到destination中的位置 | 索引、切片、连接、变形
 | [ops.mul](./ops.mul.ipynb) |  计算两个Tensor逐元素相乘| element-wise
 | [ops.multiply](./ops.multiply.ipynb) |  计算两个Tensor逐元素相乘。 | element-wise
